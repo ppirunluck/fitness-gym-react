@@ -10,6 +10,7 @@ export default {
         "primary-50": "#F79517",
         "primary-100": "#FCF3E6",
         "primary-300": "#D61724",
+        "secondary-50": "#514D4D"
       },
       backgroundImage: (theme) => ({
         "mobile-home": "url('./assets/HomePageGraphic.png')"
