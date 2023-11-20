@@ -1,8 +1,8 @@
 import { SelectedPage } from "@/shared/types"
-import useMediaQuery from "@/hooks/useMediaQuery"
+// import useMediaQuery from "@/hooks/useMediaQuery"
 import ActionButton from "@/shared/ActionButton"
 import HomePageGraphic from "@/assets/HomePageGraphic.png"
-import AnchorLink from "react-anchor-link-smooth-scroll";
+// import AnchorLink from "react-anchor-link-smooth-scroll";
 import HText from "@/shared/HText";
 
 type Props = {
@@ -11,7 +11,7 @@ type Props = {
 
 const Home = ({ setSelectedPage }: Props) => {
     const flexBetween = "flex items-center justify-between"
-    const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)")
+    // const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)")
 
     return (
         <section id="home" className="gap-16 py-10 md:h-full md:pb-0">
